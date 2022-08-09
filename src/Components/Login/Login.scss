@@ -125,10 +125,52 @@
 	}
   }
 
-  .login__check {
-    border: 1px solid #000;
+  
+}
+
+.login__check {
+  margin: 10px 0px;
+  background-color: #ffffff;
+  
+ .login__check--sign{
+  border: 1px solid #dbdbdb;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 0;
+  
+
+  .check--sign--up{
+    color: rgb(0,149,246);
+    text-decoration: none;
+    font-weight: 600;
   }
 
-  .login__app {
+  
+}
+}
+
+.login__app {
+  .login__app-modify{
+    text-align: center;
+    padding: 10px 20px;
+    color: rgb(38,38,38);
+  }
+}
+
+.login__download{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  .login__download--ios{
+    height: 40px;
+    margin-right: 5px;
+
+  }
+
+  .login__download--android{
+    height: 40px;
+
   }
 }

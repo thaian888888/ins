@@ -6,7 +6,7 @@ import './LoginPage.scss'
 const LoginPage = () => {
     return (
         <div className='LoginPage'>
-            <Login/>
+            <Description/>
         </div>
     )
 }
